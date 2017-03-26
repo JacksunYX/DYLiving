@@ -26,12 +26,13 @@ class HomeVC: UIViewController {
     
     lazy var pageContentView : PageContentView = {[weak self] in
         //计算将要添加的contentView的frame
-        let contentH = sScreenH - sStatusBarH - sNavigationBar - sTitleViewH
+        let contentH = HomeCenterViewH
         let contetFrame = CGRect(x: 0, y: sStatusBarH + sNavigationBar + sTitleViewH, width: sScreenW, height: contentH)
         
         //创建viewController，并保存到数组里
         var childVcs = [UIViewController]()
-        for _ in 0..<5 {
+        childVcs.append(RecommendVC())
+        for _ in 0..<4 {
         
             let vc = UIViewController()
             vc.view.backgroundColor = UIColor(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
@@ -52,6 +53,7 @@ class HomeVC: UIViewController {
     }
 
 }
+
 
 //设置ui界面
 extension HomeVC{
@@ -90,6 +92,8 @@ extension HomeVC{
         
     }
 }
+
+
 
 //遵守PageTitleViewDelegate协议
 extension HomeVC : PageTitleViewDelegate {

@@ -10,6 +10,8 @@ import UIKit
 
 let sStatusBarH : CGFloat = 20
 let sNavigationBar : CGFloat = 44
+let sTabbarH : CGFloat = 49
+let HomeCenterViewH = sScreenH - sStatusBarH - sNavigationBar - sTitleViewH - sTabbarH
 
 let sScreenW = UIScreen.main.bounds.width
 let sScreenH = UIScreen.main.bounds.height

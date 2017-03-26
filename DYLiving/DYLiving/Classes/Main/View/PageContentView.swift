@@ -66,10 +66,11 @@ extension PageContentView{
 
     func setupUI(){
     
-        //1.把所有的子控制器放到父控制器上
+        //1.把所有的子控制器放到父控制器上进行管理
         for childVc in childVcs {
             
             parentViewController?.addChildViewController(childVc)
+            childVc.view.frame = self.frame
             
         }
         //2.添加collectionView,用来存放子控制器
