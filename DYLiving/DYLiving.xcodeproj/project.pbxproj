@@ -24,6 +24,8 @@
 		D9506A361E83BA6A00EF98FA /* UIcolor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9506A351E83BA6A00EF98FA /* UIcolor-Extension.swift */; };
 		D95E9B221E88085600F01CB8 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E9B201E88085600F01CB8 /* CollectionNormalCell.swift */; };
 		D95E9B231E88085600F01CB8 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95E9B211E88085600F01CB8 /* CollectionNormalCell.xib */; };
+		D95E9B261E894D5300F01CB8 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E9B241E894D5300F01CB8 /* CollectionPrettyCell.swift */; };
+		D95E9B271E894D5300F01CB8 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95E9B251E894D5300F01CB8 /* CollectionPrettyCell.xib */; };
 		D9FA7A711E826B9E003350EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA7A701E826B9E003350EB /* AppDelegate.swift */; };
 		D9FA7A761E826B9E003350EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FA7A741E826B9E003350EB /* Main.storyboard */; };
 		D9FA7A781E826B9E003350EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FA7A771E826B9E003350EB /* Assets.xcassets */; };
@@ -67,6 +69,8 @@
 		D9506A351E83BA6A00EF98FA /* UIcolor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIcolor-Extension.swift"; sourceTree = "<group>"; };
 		D95E9B201E88085600F01CB8 /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
 		D95E9B211E88085600F01CB8 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		D95E9B241E894D5300F01CB8 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		D95E9B251E894D5300F01CB8 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
 		D9FA7A6D1E826B9E003350EB /* DYLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FA7A701E826B9E003350EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FA7A751E826B9E003350EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				D9506A331E83B6DA00EF98FA /* PageContentView.swift */,
 				D95E9B201E88085600F01CB8 /* CollectionNormalCell.swift */,
 				D95E9B211E88085600F01CB8 /* CollectionNormalCell.xib */,
+				D95E9B241E894D5300F01CB8 /* CollectionPrettyCell.swift */,
+				D95E9B251E894D5300F01CB8 /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -505,6 +511,7 @@
 				D9FA7A761E826B9E003350EB /* Main.storyboard in Resources */,
 				D91CDBB91E87FDE500F4AA87 /* CollectionHeaderView.xib in Resources */,
 				D9506A101E838A0500EF98FA /* Find.storyboard in Resources */,
+				D95E9B271E894D5300F01CB8 /* CollectionPrettyCell.xib in Resources */,
 				D9506A1B1E838A7A00EF98FA /* Live.storyboard in Resources */,
 				D9506A161E838A4900EF98FA /* Home.storyboard in Resources */,
 			);
@@ -540,6 +547,7 @@
 				D9506A341E83B6DA00EF98FA /* PageContentView.swift in Sources */,
 				D9506A2A1E8395C900EF98FA /* UIBarButtonItem-Extension.swift in Sources */,
 				D9506A321E83A9D700EF98FA /* Common.swift in Sources */,
+				D95E9B261E894D5300F01CB8 /* CollectionPrettyCell.swift in Sources */,
 				D95E9B221E88085600F01CB8 /* CollectionNormalCell.swift in Sources */,
 				D9506A0A1E8389C900EF98FA /* MainViewController.swift in Sources */,
 			);
