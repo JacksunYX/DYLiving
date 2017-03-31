@@ -59,6 +59,8 @@ class RecommendVC: UIViewController {
         super.viewDidLoad()
         //设置界面
         setupUI()
+        //求请数据
+        loadData()
         
     }
     
@@ -72,6 +74,21 @@ extension RecommendVC {
     func setupUI(){
         
         view.addSubview(collectionView)
+        
+    }
+
+}
+
+//请求数据
+extension RecommendVC {
+
+    func loadData (){
+        
+        NetworkTool.requestData(type: .GET, URLString: "http://httpbin.org/get") { (respose) in
+            
+            print(respose)
+            
+        }
         
     }
 
